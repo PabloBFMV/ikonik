@@ -10,17 +10,19 @@ https://templatemo.com/tm-611-maison-doree
 */
 
 :root {
-	/* Ikonik: black & white brand with kraft-paper accent */
-	--color-cream: #FAF7F2;
-	--color-ivory: #F1ECE4;
+	/* Ikonik: black & white brand with navy accent */
+	--color-cream: #F6F8FB;
+	--color-ivory: #E9EEF5;
 	--color-warm-white: #FFFFFF;
-	--color-accent: #C17A3F;
-	--color-accent-light: #DDA26C;
-	--color-accent-dark: #9A5724;
+	--color-accent: #1F3A75;
+	--color-accent-light: #9DB7E6;
+	--color-accent-dark: #142650;
+	--color-navy-deep: #0E1A35;
+	--color-navy-deep-alt: #13223F;
 	--color-charcoal: #141414;
 	--color-charcoal-soft: #3A3A3A;
-	--color-taupe: #8A7B6E;
-	--color-taupe-light: #C9BBAA;
+	--color-taupe: #6B7385;
+	--color-taupe-light: #C3CAD6;
 
 	--font-display: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 	--font-body: 'DM Sans', -apple-system, sans-serif;
@@ -132,12 +134,12 @@ a {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(255, 251, 245, 0.6);
+	background-color: rgba(246, 248, 251, 0.6);
 	z-index: -1;
 }
 
 .site-header.scrolled {
-	background: rgba(255, 251, 245, 0.98);
+	background: rgba(246, 248, 251, 0.98);
 	backdrop-filter: blur(10px);
 	padding: var(--space-sm) 0;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -289,7 +291,7 @@ a {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	padding: 1.1rem 2.25rem;
-	background-color: var(--color-charcoal);
+	background-color: var(--color-accent);
 	color: var(--color-cream);
 	border: none;
 	cursor: pointer;
@@ -418,7 +420,7 @@ a {
 	position: absolute;
 	top: var(--space-md);
 	left: var(--space-md);
-	background-color: var(--color-charcoal);
+	background-color: var(--color-accent);
 	color: var(--color-cream);
 	font-family: var(--font-body);
 	font-size: 0.7rem;
@@ -590,7 +592,7 @@ a {
 
 /* Call-to-action tile in the designs grid */
 .collection-item--cta {
-	background-color: var(--color-charcoal);
+	background-color: var(--color-accent);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -622,10 +624,10 @@ a {
 .story {
 	padding: var(--space-2xl) 0;
 	background: linear-gradient(104deg,
-			#1C1C1C 0%,
-			#1C1C1C 50%,
-			#222222 50%,
-			#222222 100%);
+			var(--color-navy-deep) 0%,
+			var(--color-navy-deep) 50%,
+			var(--color-navy-deep-alt) 50%,
+			var(--color-navy-deep-alt) 100%);
 	color: var(--color-cream);
 	overflow: hidden;
 }
@@ -888,7 +890,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--color-charcoal);
+	background-color: var(--color-accent);
 	color: var(--color-cream);
 	font-family: var(--font-display);
 	font-weight: 700;
@@ -1022,7 +1024,7 @@ a {
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	background-color: var(--color-charcoal);
+	background-color: var(--color-accent);
 	color: var(--color-cream);
 	border: none;
 	cursor: pointer;
@@ -1038,12 +1040,12 @@ a {
         ======================================== */
 .site-footer {
 	background: linear-gradient(104deg,
-			#1C1C1C 0%,
-			#1C1C1C 28%,
-			#222222 28%,
-			#222222 72%,
-			#1C1C1C 72%,
-			#1C1C1C 100%);
+			var(--color-navy-deep) 0%,
+			var(--color-navy-deep) 28%,
+			var(--color-navy-deep-alt) 28%,
+			var(--color-navy-deep-alt) 72%,
+			var(--color-navy-deep) 72%,
+			var(--color-navy-deep) 100%);
 	color: var(--color-cream);
 	padding: var(--space-xl) 0 var(--space-md);
 	position: relative;
